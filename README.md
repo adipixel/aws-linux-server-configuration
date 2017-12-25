@@ -29,6 +29,12 @@ All system packages have been updated to most recent versions
 - Database server has been configured to serve data (`PostgreSQL`)
 - Web server has been configured to serve the Item Catalog application as a WSGI app
 
+### Resources
+- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+- https://wixelhq.com/blog/how-to-install-postgresql-on-ubuntu-remote-access
+- https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps
+- http://modwsgi.readthedocs.io/en/develop/user-guides/virtual-environment
+
 ### Lessons learned
 - How to access, secure, and perform the initial configuration of a bare-bones Linux server
 - Deployment of web applications to a publicly accessible server
