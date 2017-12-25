@@ -1,4 +1,4 @@
-# Linux server Configuration
+# Linux Server Configuration
 
 #### Server Details
 - Service Provider: Amazon Web Service - Lightsail
@@ -7,7 +7,7 @@
 - SSH port: 2200
 - URL: ec2-13-59-55-238.us-east-2.compute.amazonaws.com
 
-### Summary
+### Application Summary
 
 Deployed a RESTful web application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
 
@@ -15,7 +15,7 @@ Deployed a RESTful web application that provides a list of items within a variet
 
 ### Server Configurations:
 #### User Management
-- Cannot log in as root remotely
+- Cannot log in as `root` remotely
 - A new user - `grader` is created and can user can run commands using sudo to inspect files that are readable only by root
 
 #### Security
@@ -25,8 +25,8 @@ Key-based `SSH` authentication is enforced
 All system packages have been updated to most recent versions
 
 #### Application Functionality
-- The web server responds on port 80
-- Database server has been configured to serve data (PostgreSQL)
+- The web server responds on port `80`
+- Database server has been configured to serve data (`PostgreSQL`)
 - Web server has been configured to serve the Item Catalog application as a WSGI app
 
 ### Lessons learned
