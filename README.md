@@ -19,10 +19,10 @@ Deployed a RESTful web application that provides a list of items within a variet
 - A new user - `grader` is created and can user can run commands using sudo to inspect files that are readable only by root
 
 #### Security
-Ports allowed by Uncomplicated Firewall for SSH, HTTP and NTP are `2200`, `80` and `123` respectively
-`SSH` is hosted on non-default port
-Key-based `SSH` authentication is enforced
-All system packages have been updated to most recent versions
+- Ports allowed by Uncomplicated Firewall for SSH, HTTP and NTP are `2200`, `80` and `123` respectively
+- `SSH` is hosted on non-default port
+- Key-based `SSH` authentication is enforced
+- All system packages have been updated to most recent versions
 
 #### Application Functionality
 - The web server responds on port `80`
